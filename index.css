@@ -113,25 +113,26 @@ a,p {
 }
 .title {
     text-align: center;
-    margin: 0 auto 30px;
+    margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
-    color: rgb(133, 67, 67);
+    color: #555;
 }
 .title::after {
     content: '';
     background: #ff523b;
-    width: 95px;
+    width: 80px;
     height: 5px;
     border-radius: 5px;
     position: absolute;
     bottom: 0;
-    left: 45%;
-   /* transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%); 
 
 }
 h4 {
-    color: rgb(199, 76, 76);
+    color: #555;
+    font-weight: normal;
 }
 .col-4 p {
     font-size: 14px;
@@ -146,17 +147,21 @@ p {
 .col-4:hover {
     transform: translateY(-5px);
 }
+
+/* --- offer ---*/
 .offer {
+    background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
-    background: radial-gradient(rgb(245, 166,rgba(158, 158, 46, 0.4)));
-    padding: 30px 5px;
+    
+    padding: 30px 0;
+   /* width: 100%;*/
 }
 .col-2 .offer-img {
     padding: 50px;
 }
 small {
-    color: rgb(39, 24, 24);
-    font-size: medium;
+    color: #555;
+    
 }
 
   
@@ -168,6 +173,7 @@ small {
 .testimonial .col-3 {
     text-align: center;
     padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.5s;
 }
@@ -184,20 +190,20 @@ small {
     color: #ff523b; 
 }
 .col-3 p {
-    font-size: 18px;
+    font-size: 12px;
     margin: 12px 0;
-    color: rgb(117, 87, 87);
+    color: #777;
 }
 .testimonial .col-3 h3 {
     font-weight: 600;
-    color: rgb(82, 30, 30);
+    color: #555;
     font-size: 16px;
 }
 .brands {
     margin: 100px auto;
 }
 .col-5 {
-    width: 150px;
+    width: 160px;
 }
 .col-5 img {
     width: 85%;
