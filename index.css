@@ -309,7 +309,7 @@ ul {
 }
 /*---------all products page ------*/
 .row-2 {
-    justify-content:last baseline;
+    justify-content: space-around;
     margin: 1px auto 1px;
 }
 select {
