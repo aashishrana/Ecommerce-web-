@@ -344,6 +344,9 @@ select:focus {
 .single-product {
     margin-top: 80px;
 }
+.single-product .col-2 img{
+    padding: 0;
+}
 .single-product .col-2 {
     padding: 20px;
 }
@@ -528,8 +531,8 @@ form a{
         padding: 20px 0;
     }
     .single-product h1 {
-        font-size: 32px;
-        line-height: 33px;
+        font-size: 28px;
+        line-height: 32px;
     }
     
 
